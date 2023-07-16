@@ -2,17 +2,19 @@
 
 A lightweight datepicker for React & Chakra-UI
 
+This is a fork of [@orange_digital/chakra-datepicker](https://github.com/OrangeDigitalAustralia/chakra-datepicker), made compatible with Chakra UI 2.
+
 ## Installation
 ```bash
-$ yarn add @orange_digital/chakra-datepicker
+$ yarn add @kremi151/chakra-datepicker
 # or
-$ npm install --save @orange_digital/chakra-datepicker
+$ npm install --save @kremi151/chakra-datepicker
 ```
 
 ## Example usage:
 ```typescript
 import React from 'react';
-import { DatePicker } from '@orange_digital/chakra-datepicker';
+import { DatePicker } from '@kremi151/chakra-datepicker';
 
 export const Component: React.FC = () => {
     return (

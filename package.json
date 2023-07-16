@@ -1,7 +1,7 @@
 {
-    "name": "@orange_digital/chakra-datepicker",
+    "name": "@kremi151/chakra-datepicker",
     "version": "1.0.3",
-    "description": "A datepicker written for chakra-ui with chakra-ui",
+    "description": "A React datepicker written for chakra-ui with chakra-ui",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "scripts": {
@@ -27,14 +27,12 @@
     "author": "Orange Digital",
     "license": "MIT",
     "repository": {
-        "url": "https://github.com/OrangeDigitalAustralia/chakra-datepicker",
+        "url": "https://github.com/kremi151/chakra-datepicker",
         "type": "git"
     },
     "devDependencies": {
-        "@babel/core": "^7.15.5",
-        "@babel/plugin-syntax-jsx": "^7.14.5",
-        "@types/react": "^17.0.20",
-        "@types/react-dom": "^17.0.9",
+        "@types/react": "^18.2.0",
+        "@types/react-dom": "^18.2.0",
         "@typescript-eslint/eslint-plugin": "^4.31.0",
         "@typescript-eslint/parser": "^4.31.0",
         "eslint": "^7",
@@ -45,18 +43,18 @@
         "eslint-plugin-prettier": "^4.0.0",
         "eslint-plugin-react": "^7.21.5",
         "eslint-plugin-react-hooks": "^4.2.0",
-        "prettier": "2.3.2",
+        "prettier": "^2.8.4",
         "typescript": "^4.4.2"
     },
     "dependencies": {
-        "@chakra-ui/react": "^1.6.7",
+        "@chakra-ui/react": "^2.7.1",
         "@emotion/react": "^11",
         "@emotion/styled": "^11",
         "framer-motion": "^4",
-        "react-icons": "^4.2.0"
+        "react-icons": "^4.10.1"
     },
     "peerDependencies": {
-        "react": "^16.9.0 || ^17",
-        "react-dom": "^16.9.0 || ^17"
+        "react": ">=18",
+        "react-dom": ">=18"
     }
 }

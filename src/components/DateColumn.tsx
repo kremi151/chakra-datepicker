@@ -48,7 +48,6 @@ export const DateColumn: React.FC<ColumnProps> = ({
             direction="column"
             flex-basis="0"
             justifyContent="center"
-            spacing="2"
         >
             {Boolean(title) && (
                 <Box my={2} textAlign="center" fontWeight="semibold">

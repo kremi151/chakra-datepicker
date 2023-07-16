@@ -19,7 +19,7 @@ interface Props {
     initialValue?: Date;
 }
 
-export const DatePickerProvider: React.FC<Props> = ({
+export const DatePickerProvider: React.FC<React.PropsWithChildren<Props>> = ({
     time: isTime,
     initialValue = null,
     children,
